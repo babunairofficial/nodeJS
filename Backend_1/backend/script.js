@@ -6,4 +6,10 @@
 
 // console.log("bye!");
 
-console.log(process.argv);
+// console.log(process.argv);
+
+/*to get some special values, through the user, to use*/
+let arg = process.argv;
+for(let i = 2; i<arg.length; i++){
+    console.log("hello to ", arg[i])
+}
