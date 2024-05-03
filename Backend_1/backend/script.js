@@ -13,3 +13,7 @@ let arg = process.argv;
 for(let i = 2; i<arg.length; i++){
     console.log("hello to ", arg[i])
 }
+
+//module.exports
+const sumValue = require("./math");
+console.log(sumValue);
