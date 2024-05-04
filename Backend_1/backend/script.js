@@ -26,3 +26,6 @@ import {sum, pi} from "./math.js";
 //to display without error add "type": module in package.json
 console.log(sum(1,2));
 console.log(pi);
+
+import {generate} from "random-words"; //there is no need for ./ for packages
+console.log(generate());

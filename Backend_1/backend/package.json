@@ -8,5 +8,8 @@
   },
   "author": "Babu Nair\u001b[D\u001b[D\u001b[D\u001b[\u001b[C\u001b[3\u001b[3~\u001b[3~\u001b[3~\u001b[3~\u001b[C\u001b[C\u001b[C\u001bNair",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "random-words": "^2.0.1"
+  }
 }
