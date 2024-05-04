@@ -18,6 +18,11 @@
 // const sumValue = require("./math");
 // console.log(sumValue);
 
-const info = require("./Fruits"); /*folder name*/
+// const info = require("./Fruits"); /*folder name*/
 
-console.log(info);
+// console.log(info);
+
+import {sum, pi} from "./math.js";
+//to display without error add "type": module in package.json
+console.log(sum(1,2));
+console.log(pi);
